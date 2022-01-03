@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat-Medium'),
+    url(./fonts/Montserrat-Medium.ttf) format('truetype');
+}
+
+
+* {
+  box-sizing: border-box;
+  font-family: Montserrat;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.login-container {
+  background: linear-gradient(#2a1e3a, #4450d6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-title {
+  color: rgb(0, 0, 0);
+  margin: 10px;
+}
+
+.login-form {
+  background-color: #48CAE4;
+  padding: 10px; 
+  width: 400px;
+  border-radius: 10px
+}
+
+.flex-input {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+input[type="text"], [type="password"] {
+  padding: 10px;
+  font-size: 18px;
+}
+
+label {
+  flex-basis: 130px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font: 24px;
+}
+
+.login-button {
+  background-color: #44daf5;
+  color: #1d0202;
+  font-size: 18px;
+  width: 100%;
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.login-button:hover {
+  color: black;
+    background-color: #CAF0F8;
+    transition: ease-in 0.2s;
+}
+
+.login-title {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+.flex-input {
+  color: white;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 32px;
+}
+
+th {
+  background-color: #023E8A;
+  color: white;
+}
+
+td {
+  background-color: #ADE8F4;
+  
+}
+
+.user-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.add-user {
+  background-color: rgb(88, 223, 55);
+  color: rgb(5, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px;
+
+}
+
+.edit-user {
+  background-color: #48CAE4;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+  padding: 5px;
+}
+.delete-user {
+  background-color: rgb(235, 75, 11);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.input-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-bg {
+  background-color: #bbe7f0;
+  height: 100vh;
+}
+
